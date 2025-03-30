@@ -1,14 +1,14 @@
 const products = [
-  { image: "/images/image.png", name: "Cavendish Banana", price: "$1.00" },
-  { image: "images/image7.png", name: "Plantain Banana", price: "$1.20" },
-  { image: "images/image4.png", name: "Red Banana", price: "$1.50" },
-  { image: "images/image3.png", name: "Musa Velutina", price: "$1.80" },
-  { image: "images/image6.png", name: "Musa Nanensis", price: "$2.00" },
-  { image: "images/image5.png", name: "Manzano Banana", price: "$2.50" },
-  { image: "images/image10.png", name: "Blue Java Banana", price: "$3.00" },
-  { image: "images/image8.png", name: "Mutahato Banana", price: "$3.50" },
-  { image: "/images/image2.png", name: "Hardly Banana", price: "$4.00" },
-  { image: "images/image9.png", name: "Purple Banana", price: "$4.50" },
+  { image: "/images/image.webp", name: "Cavendish Banana", price: "$1.00" },
+  { image: "images/image7.webp", name: "Plantain Banana", price: "$1.20" },
+  { image: "images/image4.webp", name: "Red Banana", price: "$1.50" },
+  { image: "images/image3.webp", name: "Musa Velutina", price: "$1.80" },
+  { image: "images/image6.webp", name: "Musa Nanensis", price: "$2.00" },
+  { image: "images/image5.webp", name: "Manzano Banana", price: "$2.50" },
+  { image: "images/image10.webp", name: "Blue Java Banana", price: "$3.00" },
+  { image: "images/image8.webp", name: "Mutahato Banana", price: "$3.50" },
+  { image: "/images/image2.webp", name: "Hardly Banana", price: "$4.00" },
+  { image: "images/image9.webp", name: "Purple Banana", price: "$4.50" },
 ];
 
 let currentIndex = 0;
