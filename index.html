@@ -11,19 +11,25 @@
         background: white;
         color: black;
       }
-
       .nav {
         padding: 10px;
         font-size: 20px;
         border-bottom: 1px solid black;
       }
-      .container {
+      .container,
+      .cart-container {
         border: 2px solid black;
         width: 500px;
         margin: 20px auto;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        max-height: 35rem;
+        overflow-y: scroll;
+      }
+      .hero{
+        display: flex;
+        flex-wrap: wrap;
       }
       .slider-container {
         width: 300px;
@@ -58,14 +64,21 @@
   <body>
     <header>
       <nav class="nav">Banana Store</nav>
-      <section class="container">
-        <section class="slider-container">
-          <div class="slider" id="slider"></div>
-        </section>
+      <div class="hero">
+        <section class="container">
+          <section class="slider-container">
+            <div class="slider" id="slider"></div>
+          </section>
 
-        <button onclick="prevSlide()">&#9665;</button>
-        <button onclick="nextSlide()">&#9655;</button>
-      </section>
+          <button onclick="prevSlide()">&#9665;</button>
+          <button onclick="nextSlide()">&#9655;</button>
+        </section>
+        <section class="cart-container">
+          <h2>Shopping Cart</h2>
+          <ul id="cart"></ul>
+          <button onclick="goToCheckout()">Checkout</button>
+        </section>
+      </div>
     </header>
     <script src="main.js"></script>
   </body>
